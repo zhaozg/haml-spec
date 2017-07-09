@@ -512,7 +512,7 @@
 
     "content in a 'css' filter (XHTML)" : {
       "haml" : ":css\n  hello\n\n%p",
-      "html" : "<style type='text/css'>\n  /*<![CDATA[*/\n    hello\n  /*]]>*/\n</style>\n<p></p>",
+      "html" : "<style type='text/css'>\n/*<![CDATA[*/\n  hello\n/*]]>*/\n</style>\n<p></p>",
       "config" : {
         "format" : "xhtml"
       }
@@ -520,7 +520,7 @@
 
     "content in a 'javascript' filter (XHTML)" : {
       "haml" : ":javascript\n  a();\n%p",
-      "html" : "<script type='text/javascript'>\n  //<![CDATA[\n    a();\n  //]]>\n</script>\n<p></p>",
+      "html" : "<script type='text/javascript'>\n//<![CDATA[\n  a();\n//]]>\n</script>\n<p></p>",
       "config" : {
         "format" : "xhtml"
       }
