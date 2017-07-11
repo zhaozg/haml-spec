@@ -1,0 +1,12 @@
+{
+  "silent comments" : {
+    "follow an inline silent comment" : {
+      "haml" : "-# hello\n%p",
+      "html" : "<p></p>"
+    },
+    "follow tow inline silent comment" : {
+      "haml" : "-# hello\n  world\n%p",
+      "html" : "<p></p>"
+    }
+  }
+}
