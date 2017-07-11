@@ -7,6 +7,10 @@
     "follow tow inline silent comment" : {
       "haml" : "-# hello\n  world\n%p",
       "html" : "<p></p>"
+    },
+    "follow tow inline silent comment" : {
+      "haml" : "-# hello\n  world\n     ¿ΩÁ\n%p",
+      "html" : "<p></p>"
     }
   }
 }
