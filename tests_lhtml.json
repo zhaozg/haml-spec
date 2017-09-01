@@ -1,0 +1,18 @@
+{
+  "lhaml Interpolation" : {
+    "simple Interpolation" : {
+      "haml" : "- local var='value'\n #{var}",
+      "html" : "value",
+      "config" : {
+        "lhtml" : true
+      }      
+    },
+    "array Interpolation" : {
+      "haml" : "- local var={} var[1]='value'\n #{var[1]}",
+      "html" : "value",
+      "config" : {
+        "lhtml" : true
+      }
+    }
+  }
+}
